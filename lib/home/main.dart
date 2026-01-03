@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/home/home_screen.dart';
+import 'package:islami/home/my_theme_data.dart';
 
 
 
@@ -21,6 +22,12 @@ class MyApp extends StatelessWidget{
   },
       
       debugShowCheckedModeBanner: false,
+
+      theme: MyThemeData.lightMode,
+
+
+
+
 
     );
   }
