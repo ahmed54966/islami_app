@@ -9,6 +9,9 @@ class MyThemeData{
     scaffoldBackgroundColor: Colors.transparent,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.transparent,
+      iconTheme: IconThemeData(
+        color: AppColors.balckColor
+      ),
       elevation: 0,
       centerTitle: true,
     ),
@@ -28,7 +31,23 @@ class MyThemeData{
         fontSize : 30 ,
         fontWeight:FontWeight.bold,
       ),
+      bodyMedium: TextStyle(
+        color: AppColors.balckColor,
+        fontSize : 25 ,
+        fontWeight:FontWeight.w700,
+      ),
+      bodySmall: TextStyle(
+        color: AppColors.balckColor,
+        fontSize : 22 ,
+        fontWeight:FontWeight.bold,
+      ),
+      titleLarge:TextStyle(
+        color: AppColors.balckColor,
+        fontSize : 20 ,
+        fontWeight:FontWeight.w400, 
+
     ),
+    )
     
   );
 }
