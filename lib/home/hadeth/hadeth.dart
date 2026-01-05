@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:islami/home/colors.dart';
+import 'package:islami/home/hadeth/item_hadeth_name.dart';
 
 
 class HadethTab extends StatefulWidget{
@@ -41,7 +42,7 @@ List <Hadeth> ahadethList = [];
         );
             },
             itemBuilder: (context,index){
-                return Text(ahadethList[index].title);
+                return ItemHadethName(hadeth : ahadethList[index]);
             },
             itemCount:ahadethList.length,
           ),

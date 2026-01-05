@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:islami/home/colors.dart';
+import 'package:islami/home/quran/item_sura_details.dart';
 import 'package:islami/home/quran/item_sura_name.dart';
+import 'package:islami/home/quran/sura_details_screen.dart';
 
 class QuranTab extends StatelessWidget{
   List <String> names = ["الفاتحه","البقرة","آل عمران","النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود"
@@ -30,7 +32,8 @@ class QuranTab extends StatelessWidget{
         ),
         Expanded(
           flex: 2,
-          child: ListView.separated(
+          child:
+          ListView.separated(
             separatorBuilder: (context,index){
               return Divider(
           color: AppColors.primaryLightColor,

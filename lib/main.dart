@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami/home/hadeth/hadeth_details_screen.dart';
 import 'package:islami/home/home_screen.dart';
 import 'package:islami/home/my_theme_data.dart';
 import 'package:islami/home/quran/sura_details_screen.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget{
     // When navigating to the "/" route, build the FirstScreen widget.
     '/': (context) => HomeScreen(),
     '/sura_details': (context) => SuraDetailsScreen(),
+    '/hadeth_details': (context) => HadethDetailsScreen(),
     
   },
       

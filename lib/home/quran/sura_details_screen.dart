@@ -35,7 +35,8 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
           style: Theme.of(context).textTheme.bodyLarge,),
           
         ),
-        body: 
+        body: verses.isEmpty?
+          Center(child: CircularProgressIndicator(color: AppColors.primaryLightColor,),):
 
         Container(
           margin: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width*0.05,
