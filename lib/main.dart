@@ -3,6 +3,8 @@ import 'package:islami/home/hadeth/hadeth_details_screen.dart';
 import 'package:islami/home/home_screen.dart';
 import 'package:islami/home/my_theme_data.dart';
 import 'package:islami/home/quran/sura_details_screen.dart';
+import 'package:islami/l10n/app_localizations.dart';
+
 
 
 
@@ -29,6 +31,10 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
 
       theme: MyThemeData.lightMode,
+
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      locale: Locale("en"),
 
 
 

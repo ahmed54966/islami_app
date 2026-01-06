@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:islami/home/colors.dart';
 import 'package:islami/home/hadeth/item_hadeth_name.dart';
+import 'package:islami/l10n/app_localizations.dart';
+
 
 
 class HadethTab extends StatefulWidget{
@@ -25,7 +27,7 @@ List <Hadeth> ahadethList = [];
           color: AppColors.primaryLightColor,
           thickness: 3,
         ),
-        Text("اسم الحديث",style: Theme.of(context).textTheme.bodyMedium,),
+        Text(AppLocalizations.of(context)!.hadeth_name,style: Theme.of(context).textTheme.bodyMedium,),
         Divider(
           color: AppColors.primaryLightColor,
           thickness: 3,

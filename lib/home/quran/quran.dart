@@ -3,6 +3,8 @@ import 'package:islami/home/colors.dart';
 import 'package:islami/home/quran/item_sura_details.dart';
 import 'package:islami/home/quran/item_sura_name.dart';
 import 'package:islami/home/quran/sura_details_screen.dart';
+import 'package:islami/l10n/app_localizations.dart';
+
 
 class QuranTab extends StatelessWidget{
   List <String> names = ["الفاتحه","البقرة","آل عمران","النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود"
@@ -25,7 +27,7 @@ class QuranTab extends StatelessWidget{
           color: AppColors.primaryLightColor,
           thickness: 3,
         ),
-        Text("اسم السورة",style: Theme.of(context).textTheme.bodyMedium,),
+        Text(AppLocalizations.of(context)!.sura_name,style: Theme.of(context).textTheme.bodyMedium,),
         Divider(
           color: AppColors.primaryLightColor,
           thickness: 3,

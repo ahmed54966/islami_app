@@ -3,6 +3,10 @@ import 'package:islami/home/hadeth/hadeth.dart';
 import 'package:islami/home/quran/quran.dart';
 import 'package:islami/home/radio/radio.dart';
 import 'package:islami/home/sebha/sebha.dart';
+import 'package:islami/l10n/app_localizations.dart';
+import 'package:islami/l10n/app_localizations.dart';
+
+
 
 class HomeScreen extends StatefulWidget{
 
@@ -26,7 +30,7 @@ int selectedIndex = 0;
       
         appBar: AppBar(
           
-          title: Text("اسلامي",
+          title: Text(AppLocalizations.of(context)!.app_title,
           style: Theme.of(context).textTheme.bodyLarge,),
           
         ),
@@ -48,19 +52,19 @@ int selectedIndex = 0;
             items: [
               BottomNavigationBarItem(icon: ImageIcon(AssetImage("assets/images/icon_quran.png"),
               ),
-              label: "قران"
+              label: AppLocalizations.of(context)!.quran
               ),
           BottomNavigationBarItem(icon: ImageIcon(AssetImage("assets/images/icon_hadeth.png"),
           ),
-          label: "حديث"
+          label: AppLocalizations.of(context)!.hadeth
           ),
           BottomNavigationBarItem(icon: ImageIcon(AssetImage("assets/images/icon_sebha.png"),
               ),
-              label: "سبحه"
+              label: AppLocalizations.of(context)!.sebha
               ),
           BottomNavigationBarItem(icon: ImageIcon(AssetImage("assets/images/icon_radio.png"),
           ),
-          label: "راديو"
+          label: AppLocalizations.of(context)!.radio
           ),
           
           
