@@ -4,6 +4,7 @@ import 'package:islami/l10n/app_localizations.dart';
 
 
 
+
 class SebhaTab extends StatefulWidget{
   @override
   State<SebhaTab> createState() => _SebhaTabState();
@@ -60,15 +61,15 @@ class _SebhaTabState extends State<SebhaTab> {
               child: Container(
                 padding:  EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: AppColors.whiteColor,
                   borderRadius: BorderRadius.circular(15),
                   boxShadow: [
-                    BoxShadow(color: Colors.black12, blurRadius: 10)
+                    BoxShadow(color: AppColors.balckColor, blurRadius: 10)
                   ],
                 ),
                 child: Text(
                   '$_counter',
-                  style:  TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.teal,),
+                  style:  TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: AppColors.tealColor,),
                 ),
               ),
             ),
@@ -82,13 +83,13 @@ class _SebhaTabState extends State<SebhaTab> {
                   width: 50,
                   height: 50,
                   decoration: BoxDecoration(
-                    color: Colors.teal,
+                    color:  AppColors.tealColor,
                     shape: BoxShape.circle,
                     boxShadow: [
-                      BoxShadow(color: Colors.teal.withOpacity(0.4), blurRadius: 20, spreadRadius: 5)
+                      BoxShadow(color:  AppColors.tealColor.withOpacity(0.4), blurRadius: 20, spreadRadius: 5)
                     ],
                   ),
-                  child: const Icon(Icons.touch_app, size: 30, color: Colors.white),
+                  child: const Icon(Icons.touch_app, size: 30, color: AppColors.whiteColor),
                 ),
               ),
             ),

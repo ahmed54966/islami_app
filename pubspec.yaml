@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  just_audio: ^0.9.36
   flutter_localizations:
     sdk: flutter
   intl: any

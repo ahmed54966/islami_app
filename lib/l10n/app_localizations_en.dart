@@ -34,4 +34,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get radio => 'Radio';
+
+  @override
+  String get running => 'Running...';
+
+  @override
+  String get stopped => 'Stopped';
 }

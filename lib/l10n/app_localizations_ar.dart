@@ -34,4 +34,10 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get radio => 'راديو';
+
+  @override
+  String get running => 'جاري التشفيل...';
+
+  @override
+  String get stopped => 'متوقف';
 }

@@ -151,6 +151,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Radio'**
   String get radio;
+
+  /// No description provided for @running.
+  ///
+  /// In en, this message translates to:
+  /// **'Running...'**
+  String get running;
+
+  /// No description provided for @stopped.
+  ///
+  /// In en, this message translates to:
+  /// **'Stopped'**
+  String get stopped;
 }
 
 class _AppLocalizationsDelegate
