@@ -40,4 +40,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get stopped => 'متوقف';
+
+  @override
+  String get settings => 'الاعدادات';
+
+  @override
+  String get lang => 'اللغه';
+
+  @override
+  String get eg => 'الانجليزيه';
+
+  @override
+  String get ar => 'العربيه';
 }

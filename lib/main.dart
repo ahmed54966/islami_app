@@ -4,19 +4,23 @@ import 'package:islami/home/home_screen.dart';
 import 'package:islami/home/my_theme_data.dart';
 import 'package:islami/home/quran/sura_details_screen.dart';
 import 'package:islami/l10n/app_localizations.dart';
-
+import 'package:islami/providers/app_lang_provider.dart';
+import 'package:provider/provider.dart';
 
 
 
 
 void main(){
-  runApp(MyApp());
+  runApp(ChangeNotifierProvider(create: (context) => AppLangProvider(),
+  child: MyApp()));
 }
 class MyApp extends StatelessWidget{
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+
+    var provider = Provider.of<AppLangProvider>(context);
     return MaterialApp(
       initialRoute: '/',
       routes: {
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget{
 
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      locale: Locale("en"),
+      locale: Locale(provider.appLanguage),
 
 
 

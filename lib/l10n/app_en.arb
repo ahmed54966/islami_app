@@ -9,6 +9,9 @@
     "sebha" : "Sebha",
     "radio" : "Radio",
     "running" : "Running...",
-    "stopped" : "Stopped"
-    
+    "stopped" : "Stopped",
+    "settings" : "Settings",
+    "lang" : "Language",
+    "eg" : "English",
+    "ar" : "Arabic" 
 }

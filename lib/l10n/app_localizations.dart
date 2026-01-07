@@ -163,6 +163,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Stopped'**
   String get stopped;
+
+  /// No description provided for @settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settings;
+
+  /// No description provided for @lang.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get lang;
+
+  /// No description provided for @eg.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get eg;
+
+  /// No description provided for @ar.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get ar;
 }
 
 class _AppLocalizationsDelegate

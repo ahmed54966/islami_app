@@ -40,4 +40,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get stopped => 'Stopped';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get lang => 'Language';
+
+  @override
+  String get eg => 'English';
+
+  @override
+  String get ar => 'Arabic';
 }

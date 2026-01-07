@@ -4,8 +4,7 @@ import 'package:islami/home/quran/quran.dart';
 import 'package:islami/home/radio/radio.dart';
 import 'package:islami/home/sebha/sebha.dart';
 import 'package:islami/l10n/app_localizations.dart';
-import 'package:islami/l10n/app_localizations.dart';
-
+import 'package:islami/home/settings/settings.dart';
 
 
 class HomeScreen extends StatefulWidget{
@@ -66,6 +65,9 @@ int selectedIndex = 0;
           ),
           label: AppLocalizations.of(context)!.radio
           ),
+          BottomNavigationBarItem(icon: Icon(Icons.settings),
+          label: AppLocalizations.of(context)!.settings
+          ),
           
           
               ]
@@ -80,7 +82,7 @@ int selectedIndex = 0;
     );
   }
 
-  List<Widget> tabs = [QuranTab(),HadethTab(),SebhaTab(),RadioTab()];
+  List<Widget> tabs = [QuranTab(),HadethTab(),SebhaTab(),RadioTab(),SettingsTab()];
 
 
 
