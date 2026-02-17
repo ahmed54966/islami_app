@@ -1,3 +1,5 @@
+islami app is application of quraan,hadeth,radio,tasbeeh and settings that have localization
+
 # islami
 
 A new Flutter project.
