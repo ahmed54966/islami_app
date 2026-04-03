@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:islami/home/colors.dart';
-import 'package:islami/home/quran/item_sura_details.dart';
 import 'package:islami/home/quran/item_sura_name.dart';
-import 'package:islami/home/quran/sura_details_screen.dart';
 import 'package:islami/l10n/app_localizations.dart';
 
 
+// ignore: must_be_immutable
 class QuranTab extends StatelessWidget{
   List <String> names = ["الفاتحه","البقرة","آل عمران","النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود"
             ,"يوسف","الرعد","إبراهيم","الحجر","النحل","الإسراء","الكهف","مريم","طه","الأنبياء","الحج","المؤمنون"
@@ -17,6 +16,8 @@ class QuranTab extends StatelessWidget{
             ,"المطفّفين","الإنشقاق","البروج","الطارق","الأعلى","الغاشية","الفجر","البلد","الشمس","الليل","الضحى","الشرح"
             ,"التين","العلق","القدر","البينة","الزلزلة","العاديات","القارعة","التكاثر","العصر",
             "الهمزة","الفيل","قريش","الماعون","الكوثر","الكافرون","النصر","المسد","الإخلاص","الفلق","الناس"];
+
+  QuranTab({super.key});
 
   @override
   Widget build(BuildContext context) {

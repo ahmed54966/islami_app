@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:islami/home/colors.dart';
 import 'package:islami/home/hadeth/Item_hadeth_details.dart';
 import 'package:islami/home/hadeth/hadeth.dart';
-import 'package:islami/home/hadeth/item_hadeth_name.dart';
 
 class HadethDetailsScreen extends StatefulWidget{
+  const HadethDetailsScreen({super.key});
+
   @override
   State<HadethDetailsScreen> createState() => _SuraDetailsScreenState();
 }
