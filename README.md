@@ -32,12 +32,16 @@ UI/UX: Custom TabBar navigation and themed widgets.
 <table style="border: none;">
 <tr>
 <td align="center"><b>Splash Screen</b></td>
+  <td align="center"><b>Sebha</b></td>
 <td align="center"><b>Quran (Surah List)</b></td>
 <td align="center"><b>Surah Details</b></td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/splash_screen.jpeg" width="200" style="border-radius: 10px;" />
+</td>
+  <td align="center">
+<img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/sebha.jpeg" width="200" style="border-radius: 10px;" />
 </td>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/sura_name.jpeg" width="200" style="border-radius: 10px;" />
@@ -48,12 +52,16 @@ UI/UX: Custom TabBar navigation and themed widgets.
 </tr>
 <tr>
 <td align="center"><b>Hadith List</b></td>
+  <td align="center"><b>Hadith details</b></td>
 <td align="center"><b>Radio</b></td>
 <td align="center"><b>Settings</b></td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/312eb6bdf86bc740afd8a16b68dde3c0624c3ddd/screenshots/hadeth_name.jpeg" width="200" style="border-radius: 10px;" />
+</td>
+  <td align="center">
+<img src="https://github.com/ahmed54966/islami_app/blob/312eb6bdf86bc740afd8a16b68dde3c0624c3ddd/screenshots/hadeth_details.jpeg" width="200" style="border-radius: 10px;" />
 </td>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/radio.jpeg" width="200" style="border-radius: 10px;" />
