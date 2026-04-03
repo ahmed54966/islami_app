@@ -41,7 +41,7 @@ UI/UX: Custom TabBar navigation and themed widgets.
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/splash_screen.jpeg" width="200" style="border-radius: 10px;" />
 </td>
   <td align="center">
-<img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/sebha.jpeg" width="200" style="border-radius: 10px;" />
+<img src="https://github.com/ahmed54966/islami_app/blob/dfb9c2db03cfcdff9ed6e129e8dd5c40e35199cd/screenshots/sebha.jpeg" width="200" style="border-radius: 10px;" />
 </td>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/sura_name.jpeg" width="200" style="border-radius: 10px;" />
