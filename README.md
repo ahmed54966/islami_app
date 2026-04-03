@@ -53,7 +53,7 @@ UI/UX: Custom TabBar navigation and themed widgets.
 </tr>
 <tr>
 <td align="center">
-<img src="https://raw.githubusercontent.com/ahmed54966/YOUR_REPO_NAME/main/screenshots/hadeth_name.jpeg" width="200" style="border-radius: 10px;" />
+<img src="https://github.com/ahmed54966/islami_app/blob/312eb6bdf86bc740afd8a16b68dde3c0624c3ddd/screenshots/hadeth_name.jpeg" width="200" style="border-radius: 10px;" />
 </td>
 <td align="center">
 <img src="https://github.com/ahmed54966/islami_app/blob/4c69f7861f36a11f077358edaa762dec3d0ab097/screenshots/radio.jpeg" width="200" style="border-radius: 10px;" />
